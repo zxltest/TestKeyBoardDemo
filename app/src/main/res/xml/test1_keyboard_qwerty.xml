@@ -4,6 +4,18 @@
     android:keyHeight="50dp"
     android:keyWidth="10.000002%p"
     android:verticalGap="10px">
+    <!--
+        Codes：代表按键对应的输出值，可以为unicode值或则逗号(,)分割的多个值，也可以为一个字 符串。在字符串中通过“\\”来转义特殊字符，例如 '\\n' 或则 '\\uxxxx' 。Codes通常用来定义该键的键码，例如上图中的数字按键1对应的为49；如果提供的是逗号分割的多个值则和普通手机输入键盘一样在多个值之间切换。
+        keyLabel：代表按键显示的文本内容。
+        keyIcon：代表按键显示的图标内容，如果指定了该值则在显示的时候显示为图片不显示文本。
+        keyWidth：代表按键的宽度，可以为精确值或则相对值，对于精确值支持多种单位，例如：像素，英寸 等；相对值为相对于基础取值的百分比，为以% 或则%p 结尾，其中%p表示相对于父容器。
+        keyHeight：代表按键的高度，取值同上。
+        horizontalGap：代表按键前的间隙（水平方向），取值同上。
+        isSticky：指定按键是否为sticky的。例如Shift大小写切换按键，具有两种状态，按下状态和正常状态，取值为true或则false。
+        isModifier：指定按键是否为功能键( modifier key ) ，例如 Alt 或则 Shift 。取值为true或则false。
+        keyOutputText：指定按键输出的文本内容，取值为字符串。
+        isRepeatable：指定按键是否是可重复的，如果长按该键可以触发重复按键事件则为true，否则为false。
+  -->
     <Row>
         <Key android:codes="113" android:keyEdgeFlags="left" android:keyLabel="q" />
         <Key android:codes="119" android:keyLabel="w" />
@@ -47,4 +59,5 @@
         <Key android:codes="46" android:keyLabel="." android:keyWidth="14.999998%p" />
         <Key android:codes="-3" android:keyEdgeFlags="right" android:keyLabel="完成" android:keyWidth="20.000004%p" />
     </Row>
+
 </Keyboard>
