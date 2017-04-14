@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- 软键盘颜色 -->
+    <color name="keyboard_bg">#BEC1C6</color>
+    <color name="key_bg">#FFFFFF</color>
+    <color name="key_press">#DADADA</color>
+    <color name="key_tx_bg">#000000</color>
+
+
+
+    <color name="candidate_normal">#FF000000</color>
+    <color name="candidate_recommended">#FFE35900</color>
+    <color name="candidate_other">#ff808080</color>
+    <color name="candidate_background">#bbffffff</color>
+</resources>
